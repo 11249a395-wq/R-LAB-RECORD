@@ -4,7 +4,7 @@ R program:
 # Step 1: Create dataset
 students <- data.frame(
 Name =
-c("Arjun","Meena","Rahul","Anitha","Kiran","Sneha","Ravi","Gayathri","Suresh","Lakshmi"),
+c("Arjuna","Meenakshi","Ramu","Anitha reddy","harsha","dhat","ashish","chandu","srinu","Lakshmi"),
 Maths = c(85,90,70,95,80,88,75,92,68,86),
 Science = c(78,88,60,92,85,80,70,90,75,82),
 English = c(92,80,75,98,88,85,78,91,80,87)
@@ -58,7 +58,7 @@ R program:
 # Dataset
 patients <- data.frame(
 PatientID = 201:210,
-Name = c("Suresh","Lakshmi","Arjun","Meena","Ravi","Anitha","Kiran","Sneha","Gayathri","Ravi2"),
+Name = c("wardhan","dhathu","Ashi","chandu","srinu","Anitha","Kiran","Sneha","Gayathri","Ravi2"),
 Age = c(45,38,52,29,60,48,55,35,42,50)
 )
 # Statistical analysis
