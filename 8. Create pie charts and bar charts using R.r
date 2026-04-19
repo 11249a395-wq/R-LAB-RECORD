@@ -3,13 +3,13 @@ University Course Enrollment
 R program:
 # Data
 departments <- c("CSE", "ECE", "IT", "Mechanical")
-students <- c(120, 80, 60, 40)
+students <- c(200, 70, 50, 30)
 # Pie Chart
 pie(
 students,
 labels = departments,
 main = "Student Enrollment per Department",
-col = c("skyblue", "orange", "green", "pink")
+col = c("pink", "green", "orange", "purple")
 )
 # Bar Chart
 barplot(
@@ -18,14 +18,14 @@ names.arg = departments,
 main = "Number of Students per Department",
 xlab = "Department",
 ylab = "Number of Students",
-col = c("skyblue", "orange", "green", "pink")
+col = c("pink", "green", "orange", "purple")
 )
 
 8.2:
 : Retail Store Sales Distribution
 R program:
 # Data
-category <- c("Electronics", "Clothing", "Accessories", "Home Appliances")
+category <- c("Home appilances", "Electronics","Accessories", "gadgets")
 sales <- c(150000, 75000, 50000, 25000)
 # Pie Chart
 pie(
@@ -78,7 +78,7 @@ pie(
 employees,
 labels = experience,
 main = "Employee Experience Distribution",
-col = c("skyblue", "orange", "green", "pink")
+col = c("pink", "green", "orange", "purple")
 )
 # Bar Chart
 barplot(
@@ -88,7 +88,7 @@ names.arg = experience,
 main = "Number of Employees by Experience",
 xlab = "Experience Level",
 ylab = "Number of Employees",
-col = c("skyblue", "orange", "green", "pink")
+col = c("pink", "green", "orange", "purple")
 )
 
 8.5:
