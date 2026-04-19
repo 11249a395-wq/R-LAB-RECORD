@@ -1,7 +1,7 @@
 6.1
 Student Marks Processing (Vectors)
 R program:
-marks <- c(78, 85, 90, 88, 76)
+marks <- c(87, 58, 95, 98, 67)
 total <- sum(marks)
 average <- mean(marks)
 highest <- max(marks)
@@ -12,7 +12,7 @@ highest
 6.2:
 Temperature Monitoring System (Vectors)
 R program:
-temperature <- c(32, 33, 31, 34, 35, 36, 33)
+temperature <- c(79, 83, 95, 67, 90, 98, 59)
 min_temp <- min(temperature)
 max_temp <- max(temperature)
 min_temp
@@ -25,8 +25,8 @@ R program:
 List is suitable because it supports different data types.
 employee <- list(
 ID = 101,
-Name = "Gayathri",
-Salary = 45000,
+Name = "Dhatri",
+Salary = 100000,
 Department = "IT"
 )
 employee
@@ -38,8 +38,8 @@ Patient Medical Record System (Lists)
 R program:
 patient <- list(
 PatientID = 202,
-Name = "Ravi",
-Age = 45,
+Name = "Ashish",
+Age = 23,
 TestResults = c(120, 140, 130)
 )
 patient
@@ -53,7 +53,7 @@ Data frame is best for structured tabular data.
 students <- data.frame(
 
 RollNo = c(1, 2, 3),
-Name = c("Anitha", "Karthik", "Meena"),
+Name = c("Ashish", "Dhatri", "srinu),
 Dept = c("CSE", "ECE", "IT"),
 Marks = c(85, 78, 92)
 )
@@ -63,7 +63,7 @@ Question
 Sales Report System (Data Frames)
 R program:
 sales <- data.frame(
-Month = c("Jan", "Feb", "Mar"),
+Month = c("Jan", "Aug", "Sep"),
 Sales = c(50000, 62000, 58000)
 )
 total_sales <- sum(sales$Sales)
@@ -126,7 +126,7 @@ List stores heterogeneous data (profiles)
 Data Frame stores structured tabular data (records)
 scores <- c(85, 90, 88)
 profile <- list(
-Name = "Gayathri",
+Name = "Dhatri",
 Age = 21,
 Scores = scores
 
