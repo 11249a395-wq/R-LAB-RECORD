@@ -4,12 +4,13 @@ R program:
 # Student details
 students <- data.frame(
 RollNo = c(101, 102, 103),
-Name = c("Ravi", "Meena", "Karthik"),
+Name = c("Ravi", "Meenakshi", "Karthika"),
 Dept = c("CSE", "ECE", "IT")
 )
 # Student marks
 marks <- data.frame(
-Marks = c(78, 85, 90)
+Marks = c(70, 80,95)
+          
 )
 # Join columns
 student_data <- cbind(students, marks)
@@ -17,9 +18,9 @@ student_data
 # Add new student records
 new_students <- data.frame(
 RollNo = c(104),
-Name = c("Anjali"),
+Name = c("Anjali surya"),
 Dept = c("CSE"),
-Marks = c(88)
+Marks = c(90)
 )
 final_data <- rbind(student_data, new_students)
 final_data
@@ -29,11 +30,11 @@ Employee Management System
 R programe:
 employee_details <- data.frame(
 EmpID = c(1, 2, 3),
-Name = c("Amit", "Sneha", "Raj"),
+Name = c("Anitha", "Snehitha", "Raja"),
 Dept = c("HR", "IT", "Finance")
 )
 salary_details <- data.frame(
-Salary = c(35000, 45000, 50000)
+Salary = c(30000, 50000, 80000)
 )
 # Join columns
 employees <- cbind(employee_details, salary_details)
@@ -41,9 +42,9 @@ employees
 # Add new employee
 new_employee <- data.frame(
 EmpID = 4,
-Name = "Neha",
+Name = "Neha sri",
 Dept = "IT",
-Salary = 48000
+Salary = 50000 
 )
 employees <- rbind(employees, new_employee)
 employees
@@ -53,7 +54,7 @@ Hospital Patient Records
 R program:
 patient_info <- data.frame(
 PatientID = c(201, 202),
-Name = c("Suresh", "Lakshmi"),
+Name = c("Suresh lakshmi", "Lakshmi priya"),
 Age = c(45, 38)
 )
 treatment_cost <- data.frame(
@@ -67,7 +68,7 @@ new_patient <- data.frame(
 PatientID = 203,
 Name = "Arjun",
 Age = 50,
-Cost = 18000
+Cost = 20000
 )
 patient_records <- rbind(patient_records, new_patient)
 patient_records
@@ -100,7 +101,7 @@ R program:
 # Student details
 students <- data.frame(
 RollNo = c(1, 2, 3),
-Name = c("Arun", "Bina", "Charan"),
+Name = c("Arunja", "Binaya", "Charan sri"),
 Dept = c("CSE", "ECE", "IT")
 )
 # Semester marks
@@ -118,7 +119,7 @@ student_records
 # New admissions
 new_students <- data.frame(
 RollNo = c(4, 5),
-Name = c("Deepa", "Eshan"),
+Name = c("Deepika", "Eshani"),
 Dept = c("CSE", "IT"),
 Sem1 = c(85, 89),
 Sem2 = c(87, 91),
@@ -134,7 +135,7 @@ R program:
 # Employee details
 emp_details <- data.frame(
 EmpID = c(101, 102),
-Name = c("Rahul", "Sneha"),
+Name = c("Rahula", "Snehitha"),
 Dept = c("IT", "HR")
 )
 # Salary components
@@ -250,7 +251,7 @@ new_field <- data.frame(
 FieldID = 3,
 Crop = "Maize",
 Moisture = 40,
-Temp = 31,
+Temp = 30,
 ExpectedYield = 4.1
 )
 agri_data <- rbind(agri_data, new_field)
