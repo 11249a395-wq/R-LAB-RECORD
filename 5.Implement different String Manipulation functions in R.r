@@ -1,7 +1,7 @@
 5.1
 Employee Name Standardization
 R program:
-names <- c("arun", "Bala", "chitra")
+names <- c("aruna", "Balaji", "chitra")
 upper_names <- toupper(names)
 name_length <- nchar(upper_names)
 upper_names
@@ -10,7 +10,7 @@ name_length
 5.2:
 Student Email Processing
 R program:
-emails <- c("arun@gmail.com", "meena@yahoo.com", "ravi@outlook.com")
+emails <- c("aruna@gmail.com", "meenakshi@yahoo.com", "ravikumar@outlook.com")
 usernames <- sub("@.*", "", emails)
 usernames
 
@@ -39,7 +39,7 @@ updated_report
 Password Strength Checker
 R program:
 password <- "secure123"
-if(nchar(password) >= 8){
+if(nchar(password) >= 9){
 print("Strong Password")
 } else {
 print("Weak Password")
@@ -62,14 +62,14 @@ extensions
 5.9:
 Student Name Abbreviation
 R program:
-names <- c("Gayathri", "Karthik", "Anitha")
+names <- c("Gayathri sri", "Karthika", "Anitha")
 abbr <- substr(names, 1, 3)
 abbr
 
 5.10:
 Search Operation in Text
 R program:
-names <- c("Arun", "Bala", "Ravi", "John")
+names <- c("Aruna", "Balaji", "Ravikumar", "John")
 matched_names <- grep("a", names, value = TRUE)
 matched_names
 
@@ -85,7 +85,7 @@ Email usernames need to be extracted
 Only valid university emails (@univ.edu) should be retained
 Raw Data (Before Cleaning)
 students <- data.frame(
-Name = c(" Gayathri ", "RAVI ", " meena"),
+Name = c(" Gayathri sri  ", "RAVI kumar", " meenakshi"),
 Email = c("Gayu@UNIV.edu", "ravi@univ.edu", "meena@gmail.com"),
 Department = c(" cse", "ECE ", " Cse ")
 )
